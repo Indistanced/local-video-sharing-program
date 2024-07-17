@@ -1,0 +1,7 @@
+.hover-effect:hover {
+    color: rgb(2 132 199);
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
