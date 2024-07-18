@@ -4,4 +4,13 @@
     font-weight: bold;
     transform: scale(1.2);
 }
+.hover-effect:active {
+    color: crimson;
+}
+.active-link {
+    font-weight: bolder;
+    color: green;
+    transform: scale(1.3);
+}
+
 

@@ -7,11 +7,11 @@
             </g>
         </svg>
     </div>
-    <div class="grid grid-cols-4 felx-1">
-        <p class="hover-effect mx-3 my-1 text-xs text-center w-full h-full">HOME</p>
-        <p class="hover-effect mx-3 my-1 text-xs text-center w-full h-full">BROWSE</p>
-        <p class="hover-effect mx-3 my-1 text-xs text-center w-full h-full">FAQ</p>
-        <p class="hover-effect mx-3 my-1 text-xs text-center w-full h-full">CONTACT</p>
+    <div class="grid grid-cols-4">
+        <a class="hover-effect mx-3 my-1 text-xs text-center" routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">HOME</a>
+        <a class="hover-effect mx-3 my-1 text-xs text-center" routerLink="/browse" routerLinkActive="active-link">BROWSE</a>
+        <a class="hover-effect mx-3 my-1 text-xs text-center" routerLink="/faq" routerLinkActive="active-link">FAQ</a>
+        <a class="hover-effect mx-3 my-1 text-xs text-center" routerLink="/contact" routerLinkActive="active-link">CONTACT</a>
     </div>
 </nav>
 <div class="w-12 h-12 border-solid border-black mx-auto my-auto"></div>
